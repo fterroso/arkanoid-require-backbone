@@ -1,0 +1,124 @@
+@font-face { font-family: Retro; src: url('../fonts/retro_computer.ttf'); }
+body {
+  background-color: black;
+  color: chartreuse;
+  font-family: Retro;
+  font-size: 0.9em;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+.ak-center {
+  text-align: center;
+}
+
+.ak-title {
+  font-size: 2.5em;
+  padding: 10%;
+  color: aquamarine;
+}
+
+.ak-subtitle {
+  font-size: 2.5em;
+  padding-bottom: 3em;
+}
+
+.ak-back-button-container {
+  color: deepskyblue;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.ak-menu-options {
+  font-size: 1.5em;
+  padding-bottom: 0.5em;
+  float: inherit;
+  text-align: center;
+
+}
+
+#ak-menu-image-container {
+  width: 50%;
+  height: auto;
+  padding-bottom: 5%;
+}
+
+#menu-options {
+  margin: auto;
+  width: 50%;
+}
+
+.button_options {
+  float: right;
+}
+
+.button_off {
+  color: chartreuse;
+}
+
+.button_active {
+  color: red;
+}
+
+#options_config {
+  margin: auto;
+}
+
+#options_config .item {
+  margin-top: 10%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+#options_config p {
+  display: inline;
+}
+
+#options_config a {
+  margin-right: 5%;
+}
+
+#scores_info {
+  text-align: center;
+}
+
+#scores_list {
+  list-style: none;
+}
+
+.score_item {
+  margin: 5%;
+}
+
+.score_item p {
+  display: inline;
+  margin-right: 10%;
+}
+
+#canvas_game_container {
+  text-align: center;
+}
+
+#canvas_game {
+  width: 80%;
+  height: 80%;
+}
+
+.blink {
+  -webkit-animation: blink .75s linear infinite;
+  -moz-animation: blink .75s linear infinite;
+  -ms-animation: blink .75s linear infinite;
+  -o-animation: blink .75s linear infinite;
+   animation: blink .75s linear infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 1; }
+  50.01% { opacity: 0; }
+  100% { opacity: 0; }
+}

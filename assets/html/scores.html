@@ -1,0 +1,20 @@
+<section id="scores_section">
+  <div class="ak-center ak-title">SCORES</div>
+  <article id="scores_info">
+    <ol id="scores_list">
+      <% _.each(scores, function(score) { %>
+        <li class="score_item">
+          <p class="score_item_player">
+            <%= score.player %>
+          </p>
+          <p class="score_item_score">
+            <%= score.score %>
+          </p>
+        </li>
+        <% }); %>
+    </ol>
+    <div class="ak-back-button-container">
+      <a class="back_button">BACK</a>
+    </div>
+  </article>
+</section>

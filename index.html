@@ -1,0 +1,33 @@
+<! DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>ARKANOID</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="app/vendors/PageSlider/css/pageslider.css" />
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&subset=latin,latin-ext" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <section id="container"></section>
+  <script data-main="app/main" src="app/vendors/requirejs/require.js"></script>
+  <audio id="music_tune" loop>
+    <source src="assets/media/arkanoid_tune.mp3" type="audio/mp3" /> Your browser does not support the audio tag.
+  </audio>
+  <audio id="collision_sound">
+    <source src="assets/media/collision_sound.mp3" type="audio/mp3" />
+  </audio>
+  <audio id="destruction_sound">
+    <source src="assets/media/destruction_sound.mp3" type="audio/mp3" />
+  </audio>
+  <audio id="lost_sound">
+    <source src="assets/media/lost_sound.mp3" type="audio/mp3" />
+  </audio>
+  <audio id="gameover_sound">
+    <source src="assets/media/gameover_sound.mp3" type="audio/mp3" />
+  </audio>
+</body>
+
+</html>
