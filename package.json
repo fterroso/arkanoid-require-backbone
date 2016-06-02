@@ -1,0 +1,33 @@
+{
+  "name": "arkanoid-app",
+  "version": "1.0.0",
+  "description": "My arkanoid app",
+  "main": "main.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fterroso/mi-repositorio.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "fterroso <fterroso@um.es>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fterroso/mi-repositorio/issues"
+  },
+  "homepage": "https://github.com/fterroso/mi-repositorio#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-testem-mincer": "^0.5.18",
+    "mocha": "^2.4.5"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "arkanoid-app",
+  "description": "My arkanoid app",
+  "main": "index.html",
+  "keywords": [
+    "game"
+  ],
+  "authors": [
+    "fterroso <fterroso@um.es>"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.example.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.2.0",
+    "jquery-dist": "^2.1.3",
+    "backbone": "^1.3.3",
+    "PageSlider": "*",
+    "text": "^2.0.15",
+    "backbone.localStorage": "Backbone.localStorage#^1.1.16"
+  }
+}
